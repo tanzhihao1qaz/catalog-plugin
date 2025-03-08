@@ -1,0 +1,3 @@
+install:
+  - FILE="-Dfile=catalog-1.0.0.aar"
+  - mvn install:install-file $FILE -DgroupId=com.cat.android -DartifactId=catalog -Dversion=1.0.0 -Dpackaging=toml -DpomFile=pom.xml
